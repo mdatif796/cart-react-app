@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+
 .cart-item{
   display: inline-flex;
   margin: 20px 10px;
@@ -17,8 +22,8 @@ body {
 }
 
 .cart-item-left img {
-  height: 100%;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   border-radius: 4px;
   background-color: #ccc;
 }
